@@ -1,6 +1,6 @@
 //made this from this tutorial: <https://www.youtube.com/watch?v=PFJHQ2g6s0k>
 var http = require('http');
-var url = 'http://api.openweathermap.org/data/2.5/weather?q=Kyoto, JP&appid=d21182cea448ccd30b383aa34b9af45a&units=metric';
+var url = 'http://api.openweathermap.org/data/2.5/weather?q=Nara, JP&appid=d21182cea448ccd30b383aa34b9af45a&units=metric';
 
 var server = http.createServer(function(request, response){
 //ALL LOGIC WILL GO HERE 
