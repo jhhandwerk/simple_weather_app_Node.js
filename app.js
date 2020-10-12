@@ -15,8 +15,8 @@ request(url, function(err, res, body){
     response.end();
 });    
 
+const port = process.env.port||3000;
+app.listen(port, () =>{
+    console.log("Wazzzappp");
 
-
-
-
-}).listen(8081);
+});
